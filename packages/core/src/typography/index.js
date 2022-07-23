@@ -1,0 +1,6 @@
+export Heading from './Heading'
+export Marker from './Marker'
+export Paragraph from './Paragraph'
+export Readmore from './Readmore'
+export Text from './Text'
+export TextRich from './TextRich'

@@ -1,0 +1,17 @@
+{
+	"name": "@hs/form",
+	"peerDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"dependencies": {
+		"@babel/runtime-corejs3": "^7.16.3",
+		"core-js": "^3.19.1",
+		"formik": "^2.2.9",
+		"prop-types": "^15.7.2"
+	}
+}

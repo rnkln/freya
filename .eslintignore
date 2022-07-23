@@ -1,0 +1,8 @@
+/.vscode
+/.yarn
+/build
+/node_modules
+
+# Skip icons generated files
+/packages/icons/src/components
+/packages/icons/src/index.js

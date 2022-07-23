@@ -1,0 +1,20 @@
+{
+	"name": "@hs/styles",
+	"peerDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"dependencies": {
+		"@babel/runtime-corejs3": "^7.16.3",
+		"@emotion/cache": "^11.7.1",
+		"@emotion/react": "^11.7.1",
+		"color": "^4.0.1",
+		"core-js": "^3.19.1",
+		"lodash-es": "^4.17.21",
+		"tss-react": "^3.3.1"
+	}
+}
