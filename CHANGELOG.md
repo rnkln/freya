@@ -157,10 +157,6 @@
 
 ### 23.0.2
 
->**Dev Change:**
->
->Publishing will now be done automatically when a MR is merged into master, and then a notification will be posted in the slack channel `#dk-hostedshop-freya` with all the changes from the CHANGELOG
-
 ### 23.0.1
 - Updated `@hs/ckeditor5` to version `4.0.2`
 

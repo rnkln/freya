@@ -1,10 +1,10 @@
 # Freya
-HostedShop common front-end component and utility monorepo.
+Common front-end component and utility monorepo.
 
 # Packages
 
 Currently there are two packages  
-* **@hs/core - Core React components**
+* **@hs/core - React components**
 * **@hs/icons - React icons**
 
 ### Usage example
@@ -19,6 +19,7 @@ import Book from '@hs/icons/Book';
 ```
 
 For further details, see the specific section about each package.
+
 # This project
 
 The root project handles compiling and actions that aren't specific to a single package. Packages live in ```src/packageName```.
@@ -29,6 +30,7 @@ Compile all packages with ```yarn build```, this will output built packages in `
 Compiling is currently handled in the root ```package.json```.  
 Packages should have their own ```package.json``` file where all types of dependencies can be specified.  
 For more complex actions, scripts can be run in ```src/scripts```.
+
 #### genPackage.js
 The ```src/scripts/genPackage.js``` script generates a production-ready package file in the specified output directory. This script should remain compatible with all future packages. See the file for details.
 

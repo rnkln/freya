@@ -1,13 +1,12 @@
 {
 	"name": "freya",
-	"description": "HostedShop - React",
-	"author": "HostedShop",
+	"author": "rnkln",
 	"version": "31.0.0",
 	"license": "UNLICENSED",
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.zitcom.dk/smartweb/proj/freya.git"
+		"url": "https://github.com/rnkln/freya"
 	},
 	"workspaces": [
 		"packages/*"
