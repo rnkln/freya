@@ -14,11 +14,11 @@
 	],
 	"browserslist": "last 2 years and last 2 versions and > 0%",
 	"scripts": {
+		"dev": "start-storybook",
 		"test": "jest ./packages --runInBand",
 		"lint": "eslint ./packages --cache --cache-location .yarn/.cache/eslint/.eslintcache --max-warnings 0",
 		"check": "prettier ./packages --check",
-		"start": "start-storybook",
-		"storybook": "build-storybook -o ./build-storybook/storybook"
+		"build": "build-storybook"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.16.0",
