@@ -8,7 +8,6 @@ module.exports = {
 		es6: true,
 		jest: true
 	},
-	extends: ['@hs/eslint-config', '@hs/eslint-config-react'],
 	settings: {
 		'import/resolver': {
 			node: {

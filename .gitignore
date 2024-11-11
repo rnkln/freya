@@ -1,12 +1,7 @@
 # Ignore these files
 /*
-/.yarn/.cache/
-/.yarn/unplugged/*
-/.yarn/install-state.gz
 
 # Except these folders
-!/.yarn/
-!/.yarn/unplugged/term-size*
 !/.storybook/
 !/packages/
 
@@ -19,13 +14,12 @@
 !.pnp.cjs
 !.prettierignore
 !.prettierrc.js
-!.yarnrc
-!.yarnrc.yml
+!.tool-versions
 !babel.config.js
+!bun.lockb
 !CHANGELOG.md
 !Dockerfile
 !jest-setup.js
 !jest.config.js
 !package.json
 !README.md
-!yarn.lock

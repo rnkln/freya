@@ -12,10 +12,6 @@
 	"workspaces": [
 		"packages/*"
 	],
-	"engines": {
-		"node": ">=16.0.0",
-		"yarn": ">=3.0.0"
-	},
 	"browserslist": "last 2 years and last 2 versions and > 0%",
 	"scripts": {
 		"test": "jest ./packages --runInBand",
@@ -38,11 +34,6 @@
 		"@babel/preset-react": "^7.16.0",
 		"@babel/runtime-corejs3": "^7.16.3",
 		"@emotion/cache": "^11.7.1",
-		"@hs/browserslist-config": "^5.1.0",
-		"@hs/eslint-config": "^5.1.0",
-		"@hs/eslint-config-react": "^5.1.0",
-		"@hs/prettier-config": "^5.1.0",
-		"@hs/repository-tools": "^5.1.0",
 		"@storybook/addon-essentials": "^6.3.12",
 		"@storybook/builder-webpack5": "^6.3.12",
 		"@storybook/manager-webpack5": "^6.3.12",
@@ -67,6 +58,5 @@
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"react-is": "^17.0.2"
-	},
-	"packageManager": "yarn@3.0.2"
+	}
 }
